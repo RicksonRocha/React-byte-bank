@@ -21,5 +21,13 @@ describe('Render a input', () => {
         const inputNumber = screen.getByPlaceholderText('Digite um valor')
         userEvent.type(inputNumber, '50')
         expect(inputNumber).toHaveValue(50)
-    })
+    }) 
+})
+
+test('onSubmit() when click in realizar transação', () => {
+    const realizarTransacao = jest.fn()
+    render(<Formulario realizarTransacao={realizarTransacao}/>)
+    const button = screen.getByRole('button')
+    userEvent.click(button)
+    expect(realizarTransacao).toHaveBeenCalledTimes(1)
 })
