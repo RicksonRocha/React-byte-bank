@@ -1,18 +1,19 @@
-# React Testing Library
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h1>React Testing Library</h1>
+<h2>O que é esse projeto?</h2>
+<p>Projeto desenvolvido durante curso Testes Automatizados no Front-end da Alura.</p>
+<ol>
+  <li>Testes no Front-end</li>
+  <li>Simulação de interações com a página</li>
+  <li>Jest e Testing library</li>
+  <li>Métodos de consulta</li>
+  <li>Comportamento de funções</li>
+  <li>Pensando em CI/CD</li>
+</ol>
+<h2>Tecnologias usadas:</h2>
+<ul>
+  <li>Jest</li>
+  <li>React testing library</li>
+</ul>
 
 ### `npm test`
 
